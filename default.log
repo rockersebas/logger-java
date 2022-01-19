@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-01-18T21:23:23.177485Z</date>
+  <millis>1642541003177</millis>
+  <nanos>485000</nanos>
+  <sequence>0</sequence>
+  <logger>MyLog</logger>
+  <level>SEVERE</level>
+  <class>com.mycompany.logwrite.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>severe message</message>
+</record>
+<record>
+  <date>2022-01-18T21:23:23.228595Z</date>
+  <millis>1642541003228</millis>
+  <nanos>595000</nanos>
+  <sequence>1</sequence>
+  <logger>MyLog</logger>
+  <level>WARNING</level>
+  <class>com.mycompany.logwrite.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>warning message</message>
+</record>
+<record>
+  <date>2022-01-18T21:23:23.229690Z</date>
+  <millis>1642541003229</millis>
+  <nanos>690000</nanos>
+  <sequence>2</sequence>
+  <logger>MyLog</logger>
+  <level>INFO</level>
+  <class>com.mycompany.logwrite.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info message</message>
+</record>
+</log>
